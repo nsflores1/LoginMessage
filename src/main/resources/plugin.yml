@@ -1,0 +1,13 @@
+name: LoginMessage
+version: 1.0.0
+main: LoginMessage.plugin.LoginMessage
+api-version: 1.21
+commands:
+  rulesreload:
+    description: reloads the rules config
+    usage: /rulesreload
+    permission: joinbook.reload
+permissions:
+  joinbook.reload:
+    description: allows reloading the plugin config
+    default: op

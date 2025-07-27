@@ -1,0 +1,21 @@
+give-book: true
+
+book-title: "<italic>The Rules</italic>"
+book-author: "The WSO Admins"
+book-pages:
+  - |
+    <bold><color:#FFBE0A>Welcome to our server!</color></bold>
+    Be kind. Be chill. Don't cheat. Also no farms they ruin server performance.
+    When WSO traffic is heavy, the server may experience worse performance.
+    Play late at night or on weekends for optimal TPS.
+  - |
+    For more information:
+    <click:open_url:'https://wso.williams.edu/minecraft'><underlined>Click here to read the rules online</underlined></click>
+  - |
+    This plugin (LoginMessage) is under an MIT open-source license. Contact a WSO admin for the source code. And hey, maybe come join us if you'd like to see something on the server!
+
+
+join-messages:
+  - "<gradient:#500082:#FFBE0A>Williams Students Online Minecraft Server!"
+  - "Please read the <click:open_url:'https://wso.williams.edu/minecraft'><underlined>rules</underlined></click>."
+  - "<gray>If you need to contact an admin, please contact <underlined><click:open_url:'https://wso.williams.edu/facebook/users/14643'>nsf1@williams.edu</click></underlined></gray>"
