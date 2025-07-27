@@ -22,7 +22,7 @@ jobs:
         java-version: '21'
 
     - name: Install gradle
-      run: apt -y install gradle
+      run: sudo apt -y install gradle
 
     - name: cache gradle
       uses: actions/cache@v4
