@@ -21,19 +21,19 @@ jobs:
         distribution: 'temurin'
         java-version: '21'
 
-    - name: Cache gradle
+    - name: Install gradle
+      run: apt -y install gradle
+
+    - name: cache gradle
       uses: actions/cache@v4
       with:
         path: |
-          ~/.gradle/caches
-          ~/.gradle/wrapper
+          ~/.gradle/caches/
+          ~/.gradle/wrapper/
         key: gradle-${{ runner.os }}-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 
-    - name: make gradle executable
-      run: chmod +x ./gradlew
-
-    - name: build
-      run: ./gradlew build
+    - name: Build with system gradle
+      run: gradle --warning-mode=all build
 
     - name: Upload .jar as artifact
       uses: actions/upload-artifact@v4
