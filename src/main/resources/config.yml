@@ -18,4 +18,4 @@ book-pages:
 join-messages:
   - "<gradient:#500082:#FFBE0A>Williams Students Online Minecraft Server!"
   - "Please read the <click:open_url:'https://wso.williams.edu/minecraft'><underlined>rules</underlined></click>."
-  - "<gray>If you need to contact an admin, please contact <underlined><click:open_url:'https://wso.williams.edu/facebook/users/14643'>nsf1@williams.edu</click></underlined></gray>"
+  - "<gray>If you need to contact an admin, please email <underlined><click:open_url:'https://wso.williams.edu/facebook/users/14643'>nsf1@williams.edu</click></underlined></gray>"
